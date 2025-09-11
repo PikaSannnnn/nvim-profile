@@ -5,6 +5,7 @@ return {
 	config = function()
 		-- optional: set some CoC options
 		vim.g.coc_global_extensions = {
+			"coc-pairs",
 			"coc-json",
 			"coc-tsserver",
 			"coc-pyright",
