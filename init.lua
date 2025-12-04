@@ -1,6 +1,8 @@
 require("config.lazy")
 
-vim.cmd.colorscheme("tokyonight")
+-- vim.cmd.colorscheme("tokyonight")
+-- vim.cmd.colorscheme("catppuccin-mocha")
+vim.cmd.colorscheme("nightfox")
 
 vim.opt.number = true
 vim.opt.relativenumber = false

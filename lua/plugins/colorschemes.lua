@@ -1,9 +1,20 @@
 return {
 	{
+		"catppuccin/nvim",
+		lazy = false,
+        config = function()
+            require("catppuccin").setup({
+                flavour = "mocha", -- latte, frappe, macchiato, mocha
+            })
+            vim.cmd.colorscheme("catppuccin")
+        end,
+	},
+    {
 		"folke/tokyonight.nvim",
 		lazy = false,
-		priority = 1000,
 		opts = {},
-	},
-	{ "EdenEast/nightfox.nvim" },
+    },
+	{ 
+        "EdenEast/nightfox.nvim"
+    },
 }

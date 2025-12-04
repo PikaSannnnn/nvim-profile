@@ -15,4 +15,7 @@ return {
 			desc = "Open Oil options",
 		},
 	},
+    view_options = {
+        show_hidden = true,
+    },
 }
