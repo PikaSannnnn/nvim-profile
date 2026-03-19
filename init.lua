@@ -19,3 +19,9 @@ vim.keymap.set("n", "<leader>gr", function()
 end, { desc = "Toggle Relative Line Numbers" })
 
 vim.api.nvim_set_keymap("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true })
+
+-- Inlay hints
+vim.lsp.inlay_hint.enable(false)
+vim.keymap.set("n", "<leader>ih", function()
+    vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled())
+end, { desc = "Toggle Inlay Hints" })

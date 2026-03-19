@@ -17,7 +17,8 @@
   "suggest.noselect": true,
   "suggest.enablePreselect": false,
   "coc.preferences.triggerCompletionWait": 50,
-  "coc.preferences.snippetsSupport": true
+  "coc.preferences.snippetsSupport": true,
+  "inlayHint.enable": false
 }
 
 
